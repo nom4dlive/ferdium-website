@@ -2,6 +2,14 @@
 # Dependencies
 node_modules/
 
+# Build artifacts
+dist/
+build/
+target/
+
+# Logs
+*.log
+
 # Environment variables
 .env
 .env.local
@@ -14,21 +22,13 @@ node_modules/
 *.swo
 *.tmp
 
-# Logs
-*.log
-
-# Build artifacts
-dist/
-build/
-target/
-
-# Python cache
+# Python cache (if any Python files exist in project)
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Coverage reports
+# Test coverage
 coverage/
 htmlcov/
 .coverage
